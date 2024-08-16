@@ -3,4 +3,4 @@ En este repositorio estan los ejercicios de la matria Algoritmos 2. Dejo el link
 
 Gracias por leer <3
 
-*link del [notion](https://www.notion.so/d3e78acd49814098ae20fdf4a490a8a4?v=7aa48300e2124806a126897b53dd29e7&pvs=4)
+* link del [notion](https://www.notion.so/d3e78acd49814098ae20fdf4a490a8a4?v=7aa48300e2124806a126897b53dd29e7&pvs=4)
