@@ -8,11 +8,14 @@ wrapper para que se invoque f(arg1, arg2, arg3) dentro.
 TIP: Ver el type hint Callable.
 TIP 2: Ver pasaje de argumentos con *args y **kwargs
 """
-def f():
-    pass
+from typing import Callable, Any
 
-def wrapper (f):
+def wrapper (f: Callable[..., Any], *args: Any, **kwargs: Any):
+    f(*args, **kwargs)
     print (f'Ejecutada {f}()')
 
+#prueba
+def hola(nombre):
+    print( f'Hola {nombre}')
 
-wrapper("f")
+wrapper(hola, 'Sol')
